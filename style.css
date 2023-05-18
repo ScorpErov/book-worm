@@ -1,0 +1,263 @@
+@font-face {
+	font-family: 'FontName'; 
+	src: url(front/Franklin\ Gothic\ Medium.ttf); 
+}
+
+body {
+    margin: 0;
+    -ms-user-select: none; 
+        -moz-user-select: none; 
+        -webkit-user-select: none; 
+        user-select: none;
+        font-family: 'FontName';
+}
+body > a,button {
+    cursor: pointer;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'FontName'; 
+}
+.shapka { /*Настройка блока шапки*/
+    background-color: #3eb5f1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    box-shadow: 0px 1px 10px black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Logo {
+    margin-top: -25px;
+    margin-left: 30px;
+    position: absolute;
+}
+.spisok1 { /*Настройка списка кнопок*/
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+ul.spisok1 li { /*Настройка элементов кнопок*/
+    display: inline;
+}
+.podSpisok1 { /*Настройка элементов списка*/
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.knopka1 { /*Настройки кнопок*/
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    border-radius: 20px;
+    background-color: white;
+}
+.Baton {
+    margin-right: 3%;
+    position: absolute;
+    border: 0;
+    border-radius: 50px;
+    background-color: #3eb5f1;
+}
+.Text1style { /*Настройки текста  №1*/
+    color: #3eb5f1;
+    font-family: 'FontName'; 
+}
+
+.kontakti p {
+    margin-top: 10px;
+    font-family: 'FontName';
+    font-size: 25px;
+    color: #3eb5f1;
+}
+
+
+.Priuvet { /*Настройка блока приветствия*/
+    margin-top: 0.5%;
+    display: flex;
+    justify-content: center;
+}
+.imgPriuvet {
+    position:absolute;
+    z-index: 1;
+    max-height: 520px;
+    max-width: 1000px;
+    min-width: 600px;
+}
+.Priuvet h1 {
+    text-align: center;
+    z-index: 10;
+    color: #3eb5f1!important;
+    font-size:40px;
+    text-shadow: 1px 0 1px #ffffff, 
+    0 1px 1px #ffffff, 
+    -1px 0 1px #ffffff, 
+    0 -1px 1px #ffffff;
+    padding-bottom: 450px;
+    font-family: 'FontName bold'; 
+}
+.Recomendacii {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.lineBlok { /*Настройка блоков в линию*/
+    width: 200px;
+    height: 320px;
+    display: inline-block;
+    background-color: #3eb5f13f;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+.lineBlok h2 {
+    font-size: 15px;
+    font-family: 'FontName';
+}
+
+.lineObch { /*Настройка общего блока линии*/
+    display: flex;
+    justify-content: center;
+    font-family: 'FontName';
+}
+.footer {
+    background-color: #3eb5f1;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.lineBlocki {
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    height: 420px;
+    font-family: 'FontName';
+}
+.PodZagolovok {
+    text-align: center;
+    z-index: 10;
+    color: #3eb5f1;
+    font-size: 30px;
+}
+
+.lineBlockich {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    height: 15%;
+}
+
+.onas div {
+    height: 360px;
+}
+
+.Podrobnee { /*Класс кнопок в рекомендуемом*/
+    border: 0;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 1px 10px black;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.onas h2 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'FontName'; 
+}
+.onas p {
+    font-size: 25px;
+    font-family: 'FontName'; 
+}
+
+/*Класс для каталога*/
+
+.zapros {
+    display: flex;
+    justify-content: center;
+}
+.twozapros {
+    margin: 10px;
+    padding: 5px;
+    background-color: #3eb5f1;
+    border-radius: 10px;
+    width: 540px;
+    display: flex;
+    justify-content: center;
+}
+.vvod {
+    border: 0;
+    width: 485px;
+    border-radius: 5px 0 0 5px;
+}
+.twozapros button {
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    background-color: #3eb5f1;
+}
+.ButtonPokupka {
+    border: 0;
+    background-color: #3eb5f1;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+.forms input{
+    display: inline-block;
+}
+
+.forms button{
+    display: inline-block;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.filter1 {
+    display: none;
+}
+
+.filter2 {
+    display: none;
+}
+
+#udal {
+    cursor: pointer;
+}
+
+.poyavis {
+    display: none;   
+}
+
+.selecktor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.selecktor button {
+    margin-left: 30px;
+}
+.twoFooter {
+    margin-top: 21%;
+}
+.udalit {
+    width: 60%;
+}
+.viravn {
+    display: flex;
+    justify-content: center;
+}
+.Novinki {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
